@@ -1,279 +1,231 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kapsalon GOLDENROZ — Dames & Heren Kapper in Den Haag</title>
-    <meta name="description" content="Kapsalon GOLDENROZ in Den Haag. Professionele dames- en herenkapper op de Regentesselaan. Knippen, föhnen, kleuren en meer. Boek nu uw afspraak!">
-    <meta name="keywords" content="kapper den haag, kapsalon den haag, herenkapper, dameskapper, goldenroz, regentesselaan, knippen, föhnen, kleuren">
-    <meta property="og:title" content="Kapsalon GOLDENROZ — Dames & Heren Kapper in Den Haag">
-    <meta property="og:description" content="Professionele dames- en herenkapper op de Regentesselaan in Den Haag. Knippen, föhnen, kleuren en meer.">
-    <meta property="og:type" content="website">
-    <meta property="og:locale" content="nl_NL">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://kapsalon-goldenroz.netlify.app/">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Raleway:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kapsalon GOLDENROZ — Premium Kapsalon Den Haag</title>
+<meta name="description" content="Kapsalon GOLDENROZ in Den Haag. Premium kapsalon voor dames en heren. Knippen, kleuren, highlights, bruidskapsels en keratine behandelingen.">
+<meta property="og:title" content="Kapsalon GOLDENROZ — Premium Kapsalon Den Haag">
+<meta property="og:description" content="Dé kapsalon voor dames en heren in Den Haag. Boek nu uw afspraak.">
+<meta property="og:image" content="https://images.unsplash.com/photo-1562322140-8baeececf3df?w=1200&q=80">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Raleway:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="nav" id="nav">
-        <div class="nav__container">
-            <a href="#" class="nav__logo">
-                <span class="nav__logo-icon">✿</span>
-                <span class="nav__logo-text">GOLDENROZ</span>
-            </a>
-            <button class="nav__toggle" id="navToggle" aria-label="Menu openen">
-                <span></span><span></span><span></span>
-            </button>
-            <ul class="nav__menu" id="navMenu">
-                <li><a href="#over-ons">Over Ons</a></li>
-                <li><a href="#diensten">Diensten</a></li>
-                <li><a href="#openingstijden">Openingstijden</a></li>
-                <li><a href="#locatie">Locatie</a></li>
-                <li><a href="#contact" class="nav__cta">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
+<!-- NAV -->
+<nav class="nav" id="nav">
+  <a href="#" class="nav-logo">GOLDEN<span>ROZ</span></a>
+  <button class="nav-toggle" id="navToggle" aria-label="Menu">☰</button>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#over-ons">Over Ons</a></li>
+    <li><a href="#diensten">Diensten</a></li>
+    <li><a href="#galerij">Galerij</a></li>
+    <li><a href="#openingstijden">Tijden</a></li>
+    <li><a href="#contact" class="nav-cta">Afspraak Maken</a></li>
+  </ul>
+</nav>
 
-    <!-- Hero -->
-    <header class="hero" id="hero">
-        <div class="hero__bg"></div>
-        <div class="hero__content">
-            <div class="hero__rose">❀</div>
-            <h1 class="hero__title">Kapsalon <span class="gold">GOLDENROZ</span></h1>
-            <p class="hero__subtitle">Waar elegantie en vakmanschap samenkomen</p>
-            <p class="hero__tagline">Dames & Heren Kapsalon in Den Haag</p>
-            <div class="hero__actions">
-                <a href="tel:+31618868289" class="btn btn--primary">✆ Bel voor Afspraak</a>
-                <a href="https://wa.me/31618868289?text=Hallo%2C%20ik%20wil%20graag%20een%20afspraak%20maken" class="btn btn--secondary" target="_blank" rel="noopener">WhatsApp</a>
-            </div>
-        </div>
-        <div class="hero__scroll">
-            <span>Scroll</span>
-            <div class="hero__scroll-line"></div>
-        </div>
-    </header>
+<!-- HERO -->
+<section class="hero" id="hero">
+  <div class="hero-bg" style="background-image:url('https://images.unsplash.com/photo-1562322140-8baeececf3df?w=1920&q=80')"></div>
+  <div class="hero-overlay"></div>
+  <div class="petals" aria-hidden="true">
+    <div class="petal p1"></div><div class="petal p2"></div><div class="petal p3"></div>
+    <div class="petal p4"></div><div class="petal p5"></div><div class="petal p6"></div>
+    <div class="petal p7"></div><div class="petal p8"></div>
+  </div>
+  <div class="hero-content reveal">
+    <div class="hero-rose" aria-hidden="true">
+      <svg viewBox="0 0 100 100" width="60" height="60"><circle cx="50" cy="50" r="20" fill="#D4AF37" opacity=".7"/><circle cx="50" cy="35" r="16" fill="#E8B4B8" opacity=".6"/><circle cx="38" cy="45" r="16" fill="#C48B9F" opacity=".5"/><circle cx="62" cy="45" r="16" fill="#E8B4B8" opacity=".5"/><circle cx="50" cy="50" r="10" fill="#D4AF37" opacity=".9"/></svg>
+    </div>
+    <h1 class="gradient-text">Kapsalon GOLDENROZ</h1>
+    <p class="hero-sub">Waar elegantie en vakmanschap samenkomen</p>
+    <div class="hero-btns">
+      <a href="tel:+31618868289" class="btn btn-gold">✆ Bel Ons</a>
+      <a href="https://wa.me/31618868289" class="btn btn-outline" target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+  </div>
+  <svg class="wave-bottom" viewBox="0 0 1440 120" preserveAspectRatio="none"><path d="M0,80 C360,140 1080,20 1440,80 L1440,120 L0,120Z" fill="#FFF8F0"/></svg>
+</section>
 
-    <!-- Over Ons -->
-    <section class="section section--about" id="over-ons">
-        <div class="container">
-            <div class="section__header">
-                <span class="section__rose">✿</span>
-                <h2 class="section__title">Over Ons</h2>
-                <div class="section__divider"></div>
-            </div>
-            <div class="about__grid">
-                <div class="about__text animate-in">
-                    <p class="about__lead">Welkom bij <strong>Kapsalon GOLDENROZ</strong> — uw vertrouwde kapper in het hart van Den Haag.</p>
-                    <p>Bij GOLDENROZ geloven we dat ieder kapsel een kunstwerk is. Of u nu komt voor een frisse coupe, een stijlvolle föhnbeurt of een complete kleurtransformatie — ons ervaren team staat voor u klaar.</p>
-                    <p>Gelegen aan de gezellige Regentesselaan bieden wij een warme, ontspannen sfeer waar zowel dames als heren zich thuis voelen. Met oog voor detail en passie voor het vak zorgen wij ervoor dat u stralend de deur uit loopt.</p>
-                    <p class="about__motto"><em>"De gouden roos staat voor schoonheid, vakmanschap en de unieke glans die wij aan elk kapsel meegeven."</em></p>
-                </div>
-                <div class="about__features animate-in">
-                    <div class="feature">
-                        <div class="feature__icon">✂</div>
-                        <h3>Vakmanschap</h3>
-                        <p>Jarenlange ervaring in dames- en herenkapsels</p>
-                    </div>
-                    <div class="feature">
-                        <div class="feature__icon">❀</div>
-                        <h3>Persoonlijk</h3>
-                        <p>Advies op maat voor uw haartype en wensen</p>
-                    </div>
-                    <div class="feature">
-                        <div class="feature__icon">★</div>
-                        <h3>Kwaliteit</h3>
-                        <p>Topproducten voor een langdurig resultaat</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+<!-- STATS -->
+<section class="stats">
+  <div class="container stats-grid">
+    <div class="stat reveal"><span class="stat-num">10+</span><span class="stat-label">Jaar Ervaring</span></div>
+    <div class="stat reveal"><span class="stat-num">5000+</span><span class="stat-label">Tevreden Klanten</span></div>
+    <div class="stat reveal"><span class="stat-num">⭐ 4.9</span><span class="stat-label">Google Reviews</span></div>
+  </div>
+</section>
 
-    <!-- Diensten -->
-    <section class="section section--diensten" id="diensten">
-        <div class="container">
-            <div class="section__header">
-                <span class="section__rose">✿</span>
-                <h2 class="section__title">Onze Diensten</h2>
-                <div class="section__divider"></div>
-                <p class="section__subtitle">Professionele haarverzorging voor dames en heren</p>
-            </div>
-            <div class="diensten__grid">
-                <div class="dienst-card animate-in">
-                    <div class="dienst-card__icon">👩</div>
-                    <h3 class="dienst-card__title">Dames</h3>
-                    <ul class="dienst-card__list">
-                        <li><span>Knippen</span><span class="prijs">€ 30</span></li>
-                        <li><span>Knippen + Föhnen</span><span class="prijs">€ 45</span></li>
-                        <li><span>Föhnen kort haar</span><span class="prijs">€ 15</span></li>
-                        <li><span>Föhnen lang haar</span><span class="prijs">€ 20</span></li>
-                        <li><span>Kleuren</span><span class="prijs">vanaf € 50</span></li>
-                        <li><span>Highlights / Balayage</span><span class="prijs">vanaf € 65</span></li>
-                        <li><span>Kleuren + Knippen + Föhnen</span><span class="prijs">vanaf € 80</span></li>
-                    </ul>
-                </div>
-                <div class="dienst-card animate-in">
-                    <div class="dienst-card__icon">👨</div>
-                    <h3 class="dienst-card__title">Heren</h3>
-                    <ul class="dienst-card__list">
-                        <li><span>Knippen</span><span class="prijs">€ 20</span></li>
-                        <li><span>Knippen + Wassen</span><span class="prijs">€ 25</span></li>
-                        <li><span>Baard trimmen</span><span class="prijs">€ 10</span></li>
-                        <li><span>Knippen + Baard</span><span class="prijs">€ 30</span></li>
-                        <li><span>Kinderen (t/m 12 jaar)</span><span class="prijs">€ 15</span></li>
-                    </ul>
-                </div>
-                <div class="dienst-card dienst-card--highlight animate-in">
-                    <div class="dienst-card__icon">✿</div>
-                    <h3 class="dienst-card__title">Extra Behandelingen</h3>
-                    <ul class="dienst-card__list">
-                        <li><span>Haar masker</span><span class="prijs">€ 10</span></li>
-                        <li><span>Krullen / Stylen</span><span class="prijs">€ 25</span></li>
-                        <li><span>Opsteken (bruiloft/gala)</span><span class="prijs">vanaf € 45</span></li>
-                        <li><span>Wenkbrauwen epileren</span><span class="prijs">€ 8</span></li>
-                    </ul>
-                    <p class="dienst-card__note">Prijzen zijn indicatief. Neem contact op voor een persoonlijk advies.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+<!-- OVER ONS -->
+<section class="about" id="over-ons">
+  <div class="container about-grid">
+    <div class="about-img reveal">
+      <img src="https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?w=800&q=80" alt="Styling bij GOLDENROZ" loading="lazy">
+      <div class="about-img-accent"></div>
+    </div>
+    <div class="about-text reveal">
+      <h2 class="gradient-text">Over GOLDENROZ</h2>
+      <p>Bij Kapsalon GOLDENROZ draait alles om <strong>u</strong>. Ons team van ervaren stylisten combineert de nieuwste trends met tijdloze technieken om uw persoonlijke stijl tot leven te brengen.</p>
+      <p>Gelegen aan de Regentesselaan in het hart van Den Haag, bieden wij een warme, luxe ervaring voor zowel dames als heren. Van een eenvoudige knipbeurt tot een compleet bruidskapsel — wij maken er iets bijzonders van.</p>
+      <a href="#diensten" class="btn btn-gold">Bekijk Diensten</a>
+    </div>
+  </div>
+  <svg class="wave-divider" viewBox="0 0 1440 80" preserveAspectRatio="none"><path d="M0,40 C480,100 960,0 1440,40 L1440,80 L0,80Z" fill="#1C1018"/></svg>
+</section>
 
-    <!-- Openingstijden -->
-    <section class="section section--tijden" id="openingstijden">
-        <div class="container">
-            <div class="section__header">
-                <span class="section__rose">✿</span>
-                <h2 class="section__title">Openingstijden</h2>
-                <div class="section__divider"></div>
-            </div>
-            <div class="tijden__wrapper animate-in">
-                <table class="tijden__table">
-                    <tbody>
-                        <tr class="gesloten"><td>Maandag</td><td>Gesloten</td></tr>
-                        <tr><td>Dinsdag</td><td>09:30 – 19:00</td></tr>
-                        <tr><td>Woensdag</td><td>09:30 – 19:00</td></tr>
-                        <tr><td>Donderdag</td><td>09:30 – 19:00</td></tr>
-                        <tr><td>Vrijdag</td><td>09:30 – 19:00</td></tr>
-                        <tr><td>Zaterdag</td><td>09:30 – 19:00</td></tr>
-                        <tr><td>Zondag</td><td>09:30 – 19:00</td></tr>
-                    </tbody>
-                </table>
-                <div class="tijden__cta">
-                    <p>Loop gerust binnen of maak een afspraak!</p>
-                    <a href="tel:+31618868289" class="btn btn--primary">✆ Bel Ons</a>
-                </div>
-            </div>
-        </div>
-    </section>
+<!-- DIENSTEN -->
+<section class="services" id="diensten">
+  <div class="services-bg" style="background-image:url('https://images.unsplash.com/photo-1559599101-f09722fb4948?w=1920&q=80')"></div>
+  <div class="services-overlay"></div>
+  <div class="container">
+    <h2 class="gradient-text reveal">Onze Diensten</h2>
+    <div class="services-grid">
+      <div class="glass-card reveal">
+        <h3>👩 Dames</h3>
+        <ul>
+          <li><span>Knippen</span><span>€30</span></li>
+          <li><span>Föhnen</span><span>€18</span></li>
+          <li><span>Knippen + Föhnen</span><span>€42</span></li>
+          <li><span>Kleuren</span><span>€65</span></li>
+          <li><span>Highlights</span><span>€80</span></li>
+          <li><span>Bruidskapsels</span><span>€95</span></li>
+          <li><span>Keratine Behandeling</span><span>€120</span></li>
+        </ul>
+      </div>
+      <div class="glass-card reveal">
+        <h3>👨 Heren</h3>
+        <ul>
+          <li><span>Knippen</span><span>€22</span></li>
+          <li><span>Knippen + Styling</span><span>€28</span></li>
+          <li><span>Baard Trimmen</span><span>€12</span></li>
+        </ul>
+        <p class="glass-card-note">Alle prijzen zijn inclusief consult en styling advies</p>
+      </div>
+    </div>
+  </div>
+  <svg class="wave-bottom" viewBox="0 0 1440 120" preserveAspectRatio="none"><path d="M0,60 C320,120 720,0 1440,80 L1440,120 L0,120Z" fill="#FFF8F0"/></svg>
+</section>
 
-    <!-- Locatie -->
-    <section class="section section--locatie" id="locatie">
-        <div class="container">
-            <div class="section__header">
-                <span class="section__rose">✿</span>
-                <h2 class="section__title">Locatie</h2>
-                <div class="section__divider"></div>
-                <p class="section__subtitle">Regentesselaan 387, 2562 ED Den Haag</p>
-            </div>
-            <div class="locatie__map animate-in">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2461.5!2d4.2900!3d52.0750!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5b1234567890%3A0x0!2sRegentesselaan+387%2C+2562+ED+Den+Haag!5e0!3m2!1snl!2snl!4v1700000000000!5m2!1snl!2snl"
-                    width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"
-                    title="Kapsalon GOLDENROZ op Google Maps"></iframe>
-            </div>
-            <div class="locatie__info animate-in">
-                <div class="locatie__detail">
-                    <strong>📍 Adres</strong>
-                    <p>Regentesselaan 387<br>2562 ED Den Haag</p>
-                </div>
-                <div class="locatie__detail">
-                    <strong>🚊 Bereikbaar</strong>
-                    <p>Goed bereikbaar met tram en bus.<br>Parkeergelegenheid in de buurt.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+<!-- GALERIJ -->
+<section class="gallery" id="galerij">
+  <div class="container">
+    <h2 class="gradient-text reveal">Galerij</h2>
+    <div class="gallery-grid">
+      <div class="gallery-item reveal"><img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600&q=80" alt="Haarstyling" loading="lazy"></div>
+      <div class="gallery-item reveal"><img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600&q=80" alt="Salon interieur" loading="lazy"></div>
+      <div class="gallery-item reveal"><img src="https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=600&q=80" alt="Kleuren" loading="lazy"></div>
+      <div class="gallery-item reveal"><img src="https://images.unsplash.com/photo-1519699047748-de8e457a634e?w=600&q=80" alt="Bruidskapsel" loading="lazy"></div>
+      <div class="gallery-item reveal"><img src="https://images.unsplash.com/photo-1634449571010-02389ed0f9b0?w=600&q=80" alt="Heren knippen" loading="lazy"></div>
+      <div class="gallery-item reveal"><img src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=600&q=80" alt="Föhnen" loading="lazy"></div>
+    </div>
+  </div>
+  <svg class="wave-divider" viewBox="0 0 1440 80" preserveAspectRatio="none"><path d="M0,20 C360,80 1080,0 1440,40 L1440,80 L0,80Z" fill="#1C1018"/></svg>
+</section>
 
-    <!-- Contact -->
-    <section class="section section--contact" id="contact">
-        <div class="container">
-            <div class="section__header">
-                <span class="section__rose">✿</span>
-                <h2 class="section__title">Contact</h2>
-                <div class="section__divider"></div>
-                <p class="section__subtitle">Wij horen graag van u!</p>
-            </div>
-            <div class="contact__grid animate-in">
-                <a href="tel:+31618868289" class="contact-card">
-                    <div class="contact-card__icon">📞</div>
-                    <h3>Bellen</h3>
-                    <p>+31 6 1886 8289</p>
-                </a>
-                <a href="https://wa.me/31618868289?text=Hallo%2C%20ik%20wil%20graag%20een%20afspraak%20maken%20bij%20Kapsalon%20GOLDENROZ" class="contact-card" target="_blank" rel="noopener">
-                    <div class="contact-card__icon">💬</div>
-                    <h3>WhatsApp</h3>
-                    <p>Stuur ons een bericht</p>
-                </a>
-                <a href="https://www.google.com/maps/dir//Regentesselaan+387,+2562+ED+Den+Haag" class="contact-card" target="_blank" rel="noopener">
-                    <div class="contact-card__icon">📍</div>
-                    <h3>Route</h3>
-                    <p>Regentesselaan 387, Den Haag</p>
-                </a>
-            </div>
-        </div>
-    </section>
+<!-- BRUIDSKAPSELS -->
+<section class="bridal">
+  <div class="bridal-bg" style="background-image:url('https://images.unsplash.com/photo-1519699047748-de8e457a634e?w=1920&q=80')"></div>
+  <div class="bridal-overlay"></div>
+  <div class="container bridal-content reveal">
+    <h2 class="gradient-text">Bruidskapsels</h2>
+    <p>Uw grote dag verdient een perfect kapsel. Ons team creëert adembenemende bruidskapsels — van romantische vlechten tot glamoureuze updos. Inclusief proefkapsel en persoonlijk advies.</p>
+    <div class="bridal-price">Vanaf <strong>€95</strong></div>
+    <a href="https://wa.me/31618868289?text=Hallo%2C%20ik%20wil%20graag%20een%20afspraak%20maken%20voor%20een%20bruidskapsel" class="btn btn-gold" target="_blank" rel="noopener">Boek Uw Bruidskapsel</a>
+  </div>
+  <svg class="wave-bottom" viewBox="0 0 1440 120" preserveAspectRatio="none"><path d="M0,80 C480,20 960,120 1440,60 L1440,120 L0,120Z" fill="#FFF8F0"/></svg>
+</section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer__content">
-                <div class="footer__brand">
-                    <span class="footer__logo">✿ GOLDENROZ</span>
-                    <p>Dames & Heren Kapsalon</p>
-                    <p>Regentesselaan 387, Den Haag</p>
-                </div>
-                <div class="footer__links">
-                    <a href="#over-ons">Over Ons</a>
-                    <a href="#diensten">Diensten</a>
-                    <a href="#openingstijden">Openingstijden</a>
-                    <a href="#contact">Contact</a>
-                </div>
-            </div>
-            <div class="footer__bottom">
-                <p>&copy; 2025 Kapsalon GOLDENROZ. Alle rechten voorbehouden.</p>
-            </div>
-        </div>
-    </footer>
+<!-- TESTIMONIALS -->
+<section class="testimonials">
+  <div class="container">
+    <h2 class="gradient-text reveal">Wat Klanten Zeggen</h2>
+    <div class="testimonials-grid">
+      <div class="glass-card testimonial reveal">
+        <div class="stars">⭐⭐⭐⭐⭐</div>
+        <p>"Al jaren vaste klant! Het team is super lief en mijn haar zit altijd perfect. Aanrader!"</p>
+        <span class="testimonial-author">— Fatima B.</span>
+      </div>
+      <div class="glass-card testimonial reveal">
+        <div class="stars">⭐⭐⭐⭐⭐</div>
+        <p>"Mijn bruidskapsel was prachtig, precies wat ik wilde. Iedereen was onder de indruk!"</p>
+        <span class="testimonial-author">— Lisa de V.</span>
+      </div>
+      <div class="glass-card testimonial reveal">
+        <div class="stars">⭐⭐⭐⭐⭐</div>
+        <p>"Beste kapper in Den Haag. Eerlijk advies, goede prijzen en altijd een warm welkom."</p>
+        <span class="testimonial-author">— Mohammed K.</span>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <script src="script.js"></script>
+<!-- OPENINGSTIJDEN -->
+<section class="hours" id="openingstijden">
+  <div class="container">
+    <h2 class="gradient-text reveal">Openingstijden</h2>
+    <div class="glass-card hours-card reveal">
+      <table>
+        <tr class="closed"><td>Maandag</td><td>Gesloten</td></tr>
+        <tr><td>Dinsdag</td><td>09:30 – 19:00</td></tr>
+        <tr><td>Woensdag</td><td>09:30 – 19:00</td></tr>
+        <tr><td>Donderdag</td><td>09:30 – 19:00</td></tr>
+        <tr><td>Vrijdag</td><td>09:30 – 19:00</td></tr>
+        <tr><td>Zaterdag</td><td>09:30 – 19:00</td></tr>
+        <tr><td>Zondag</td><td>09:30 – 19:00</td></tr>
+      </table>
+    </div>
+  </div>
+  <svg class="wave-divider" viewBox="0 0 1440 80" preserveAspectRatio="none"><path d="M0,40 C360,0 1080,80 1440,20 L1440,80 L0,80Z" fill="#1C1018"/></svg>
+</section>
 
-    <!-- Schema.org structured data -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HairSalon",
-        "name": "Kapsalon GOLDENROZ",
-        "image": "",
-        "telephone": "+31618868289",
-        "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "Regentesselaan 387",
-            "addressLocality": "Den Haag",
-            "postalCode": "2562 ED",
-            "addressCountry": "NL"
-        },
-        "openingHoursSpecification": [
-            { "@type": "OpeningHoursSpecification", "dayOfWeek": "Monday", "opens": "00:00", "closes": "00:00" },
-            { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:30", "closes": "19:00" }
-        ],
-        "priceRange": "€€",
-        "url": "https://kapsalon-goldenroz.netlify.app"
-    }
-    </script>
+<!-- LOCATIE -->
+<section class="location" id="locatie">
+  <div class="container">
+    <h2 class="gradient-text reveal">Onze Locatie</h2>
+    <p class="reveal">Regentesselaan 387, 2562 ED Den Haag</p>
+    <div class="map-wrapper reveal">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2452.5!2d4.2875!3d52.07!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sRegentesselaan+387+Den+Haag!5e0!3m2!1snl!2snl!4v1" width="100%" height="400" style="border:0;border-radius:16px" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT CTA -->
+<section class="cta" id="contact">
+  <div class="container reveal">
+    <h2 class="gradient-text">Maak Een Afspraak</h2>
+    <p>Bel ons of stuur een WhatsApp bericht — wij helpen u graag!</p>
+    <div class="cta-btns">
+      <a href="tel:+31618868289" class="btn btn-gold btn-lg">✆ +31 6 1886 8289</a>
+      <a href="https://wa.me/31618868289" class="btn btn-outline btn-lg" target="_blank" rel="noopener">💬 WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <h3 class="gradient-text">GOLDENROZ</h3>
+      <p>Premium kapsalon voor dames en heren in Den Haag.</p>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <p>Regentesselaan 387<br>2562 ED Den Haag</p>
+      <p><a href="tel:+31618868289">+31 6 1886 8289</a></p>
+    </div>
+    <div>
+      <h4>Openingstijden</h4>
+      <p>Di – Zo: 09:30 – 19:00<br>Maandag: Gesloten</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 Kapsalon GOLDENROZ — Alle rechten voorbehouden</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
